@@ -3,7 +3,6 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                label="Close">
                 <h5 class="modal-title">Login Member</h5>
                 <button type="button" class="close" data-dismiss="modal" aria- <span aria-hidden="true">&times;</span>
                 </button>
@@ -11,26 +10,21 @@
             <form action="<?= base_url('member'); ?>" method="post">
                 <div class="modal-body">
                     <div class="form-group row">
-                        <label for="email" class="col-sm-2 col-form-
-label">Email</label>
+                        <label for="email" class="col-sm-2 col-form-label">Email</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-
-control" id="email" name="email" placeholder="Alamat Email">
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Alamat Email">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="inputPassword" class="col-sm-2 col-form-
-label">Password</label>
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
                         <div class="col-sm-10">
-                            <input type="password" class="form-
-control" id="password" name="password" placeholder="Password">
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Password">
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-outline-secondary" data- dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-outline-
-primary">Log in</button>
+                    <button type="submit" class="btn btn-outline-primary">Log in</button>
                 </div>
             </form>
         </div>
@@ -42,7 +36,6 @@ primary">Log in</button>
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                label="Close">
                 <h5 class="modal-title">Daftar Anggota</h5>
                 <button type="button" class="close" data-dismiss="modal" aria- <span aria-hidden="true">&times;</span> </button>
             </div>
